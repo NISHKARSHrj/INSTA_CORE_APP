@@ -8,7 +8,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
 
-  <!-- Your existing style.css already has all the feed CSS in it -->
   <link rel="stylesheet" href="/static/style.css"/>
 </head>
 <body>
@@ -36,11 +35,8 @@
       <span style="font-size:14px; color:var(--muted)">what's on your mind?</span>
     </div>
 
-    <!-- Text input for post content -->
     <textarea id="post-content" placeholder="write something..."></textarea>
 
-    <!-- Image preview — hidden until user picks a file -->
-    <!-- JS sets display:block when file is chosen -->
     <img id="img-preview"/>
 
     <div class="post-actions">
@@ -53,18 +49,14 @@
         onchange="previewImage(this)"
       />
 
-      <!-- Calls createPost() in feed.js -->
       <button class="post-btn" id="post-btn" onclick="createPost()">post</button>
     </div>
-
-    <!-- Error message shown if post fails -->
     <p id="post-error" style="font-size:13px; color:var(--accent); margin-top:8px; display:none;"></p>
   </div>
 
 
   
   <div id="posts-container">
-    <!-- Posts are injected here by renderPosts() in feed.js -->
     <div class="empty" id="feed-loading">loading posts...</div>
   </div>
 
