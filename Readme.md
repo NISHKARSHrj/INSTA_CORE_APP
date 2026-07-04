@@ -6,7 +6,7 @@
 ![Flask](https://img.shields.io/badge/Flask-Backend-black?logo=flask)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-Media-3448C5?logo=cloudinary)
-![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
+![Render](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vRender)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
