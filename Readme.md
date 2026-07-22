@@ -13,7 +13,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:** https://instacore-toq2.onrender.com
+🔗 **Live Website:** https://instacore-parody-app.onrender.com
 
 ---
 
